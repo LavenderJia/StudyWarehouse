@@ -1,10 +1,10 @@
 <template>
   <v-app id="login">
-    <v-content>
+    <v-content id="content">
       <v-jumbotron src="../static/img/purple_mountain.jpg"
                    :gradient="gradient"
                    dark
-                   height="650px">
+                   height="800px">
       <v-container fluid fill-height>
         <v-layout align-center justify-center>
           <v-flex xs12 sm8 md4>
@@ -63,3 +63,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+ #content{
+   background-color: grey;
+ }
+</style>

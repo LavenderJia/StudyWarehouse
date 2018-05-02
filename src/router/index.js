@@ -9,7 +9,7 @@ let component1 = {
   template: `<div class="title">待补充...</div>`
 }
 let component2 = {
-  template: `<div class="title">Page 2</div>`
+  template: `<div class="title">打开组件</div>`
 }
 let component3 = {
   template: `<div class="title">Page 3</div>`
