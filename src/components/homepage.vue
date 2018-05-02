@@ -144,7 +144,7 @@ export default {
           'icon-pre': 'create',
           'icon-alt': 'keyboard_arrow_down',
           text: '课堂笔记',
-          model: true,
+          model: false,
           children: [
             {icon: 'gesture', text: '网站设计与运营'},
             {icon: 'gesture', text: '商业数据分析'},
@@ -156,7 +156,7 @@ export default {
           'icon-pre': 'assignment',
           'icon-alt': 'keyboard_arrow_down',
           text: '备考整理',
-          model: true,
+          model: false,
           children: [
             { icon: 'add', text: '创建备考' }
           ]
@@ -166,7 +166,7 @@ export default {
           'icon-pre': 'beenhere',
           'icon-alt': 'keyboard_arrow_down',
           text: '习题纠错',
-          model: true,
+          model: false,
           children: [
             { icon: 'add', text: '创建纠错本' }
           ]
@@ -176,7 +176,7 @@ export default {
           'icon-pre': 'star',
           'icon-alt': 'keyboard_arrow_down',
           text: '技术填坑',
-          model: true,
+          model: false,
           children: [
             { icon: 'add', text: '创建技术坑' }
           ]

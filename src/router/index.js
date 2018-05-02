@@ -17,6 +17,7 @@ let component3 = {
 
 export default new Router({
   mode: 'history',
+  base: '/StudyWarehouse/',
   routes: [
     {
       path: '/',
